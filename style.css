@@ -2,12 +2,18 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'FiraCodeNerdFont'; /* Choose a name for your font */
+    src: url('FiraCodeNerdFont-Regular.ttf') format('truetype'); /* Update the path to your Fira Code Nerd Font file */
+    /* You can include additional font formats here, like woff or woff2, for better browser compatibility */
+}
+
 body {
     background-color: #380000;
 }
 
 h1, .about, .links, .abweb {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: FiraCodeNerdFont;
     text-align: center;
     color: rgba(0, 0, 0, 0.459);
 }
