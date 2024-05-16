@@ -1,0 +1,82 @@
+body {
+  background-color: #8a0000; /* Cyan */
+  font-family: Arial, sans-serif;
+  color: #000000; /* Hot Pink */
+  margin: 0;
+  padding: 0;
+  background-image: url('background.jpg');
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+.boxtitle {
+  border: 5px solid #000000; /* Gold */
+  background-color: #7e2323; /* Dark Turquoise */
+  box-shadow: 5px 5px 15px #000000;
+  margin-bottom: 20px;
+  min-height: 100px; /* Adjust the height of the box */
+  padding: 20px; /* Add padding for better spacing */
+}
+
+.boxmain {
+  border: 5px solid #000000; /* Gold */
+  background-color: #dda8a8; /* Dark Turquoise */
+  margin-bottom: 20px;
+  min-height: 100px; /* Adjust the height of the box */
+  padding: 20px; /* Add padding for better spacing */
+}
+
+.boxmsg {
+  border: 5px solid #000000; /* Gold */
+  background-color: #dda8a8; /* Dark Turquoise */
+  margin-bottom: 20px;
+  min-height: 100px; /* Adjust the height of the box */
+  padding: 20px; /* Add padding for better spacing */
+}
+
+h1 {
+  font-size: 36px;
+  text-shadow: 2px 2px 4px #000000;
+}
+.boxtitle a {
+  color: black; /* Set link color to black */
+  text-decoration: none; /* Remove underline */
+}
+
+.boxmain a {
+  color: rgb(168, 0, 56); /* Set link color to black */
+  text-decoration: none; /* Remove underline */
+}
+
+.buttons {
+  margin-top: 0; /* Adjusted margin-top */
+}
+
+.buttons button {
+  padding: 10px 20px;
+  margin: -3px;
+  background-color: #b34444; /* Yellow */
+  border: 3px solid black; /* Add border */
+  font-size: 16px;
+  cursor: pointer;
+  /* Added styles for square buttons */
+  width: 201px;
+  height: 50px;
+}
+
+.buttons button:hover {
+  background-color: #bd2828; /* Darker Yellow */
+}
+
+
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
